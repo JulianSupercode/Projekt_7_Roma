@@ -76,9 +76,30 @@ article:nth-of-type(6)
     
     }
 
-div { @include mixins.logosmall
+div { @include mixins.logosmall;
 
 }
 
+}
+
+footer {
+    @include mixins.footer;
+p {
+    @include mixins.p8
+}
+
+button {
+    @include mixins.button
+    }
+
+    button:hover {
+        @include mixins.button1
+    }
+
+    p:nth-of-type(2) {
+        @include mixins.p9
+    }
+
+    a {@include mixins.afooter}
 }
 
