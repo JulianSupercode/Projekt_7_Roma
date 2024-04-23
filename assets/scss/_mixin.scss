@@ -1,0 +1,118 @@
+@mixin flexMain {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 1%;
+    }
+
+@mixin imgHeader {
+    width: 20px;
+    height: 20px;
+}
+
+@mixin imgsection {
+    width: 20vw;
+    height: 20vh;
+
+}
+
+@mixin backgroundimage {
+    background: url("../img/cleo-topper.jpg") no-repeat center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.447);
+    background-blend-mode: multiply;
+}
+
+@mixin backgroundimage2 {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 140vh;
+    z-index: 2;
+      
+}
+
+@mixin Link {
+    
+            font-family: "roboto";
+            color:white;
+            font-size: 12px;
+            text-decoration: none;
+            margin-right: 5%;
+}
+
+@mixin p1 {
+width: 10%;
+height: 10%;
+color: white;
+font-size: xx-large;
+margin-left: 10%;
+margin-top: 15%;
+font-family: "inter";
+}
+
+@mixin p2 {
+margin-left: 10%;
+margin-top: 10%;
+font-family: "mrdafoe";
+color: rgba(231, 188, 14, 1);
+
+}
+
+@mixin p3 {
+margin-left: 15%;
+margin-top: 20%;
+font-family:"santio" ;
+color: #6BC1A3;
+width:25%
+
+}
+
+@mixin p4 {
+margin-left: 25%;
+margin-top: 25%;
+font-family:"santio";
+color: #E7BC0E;
+width: 40%;
+height: 30%;
+}
+
+@mixin p5 {
+    margin-left: 25%;
+    margin-top: 15%;
+    margin-bottom: 10%;
+    font-family:"santio";
+    color: #CB91B6;
+    width: 40%;
+    height: 30%;
+    }
+
+    @mixin p6 {
+        margin-left: 25%;
+        margin-top: 15%;
+        margin-bottom: 10%;
+        font-family:"santio";
+        color: #6BC1A3;
+        width: 40%;
+        height: 30%;
+        }
+
+        @mixin p7 {
+            margin-left: 25%;
+            margin-top: 25%;
+            margin-bottom: 10%;
+            font-family:"santio";
+            color:#7EB8E1;
+            width: 25%;
+            height: 25%;
+            line-height: 1.5rem;
+            }
+
+@mixin logosmall {
+    width: 30%;
+    height: 30%;
+    margin-left: 0%;
+}

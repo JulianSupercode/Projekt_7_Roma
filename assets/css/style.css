@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "inter";
+  src: url(../font/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: "mrdafoe";
+  src: url(../font/MrDafoe-Regular.ttf);
+}
+@font-face {
+  font-family: "roboto";
+  src: url(../font/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "santio";
+  src: url(../font/Santio\ regular.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header nav {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 1%;
+}
+header nav img {
+  width: 20px;
+  height: 20px;
+}
+header nav a {
+  font-family: "roboto";
+  color: white;
+  font-size: 12px;
+  text-decoration: none;
+  margin-right: 5%;
+}
+
+body {
+  background-image: url(../img/cleo-topper.jpg);
+  background: url("../img/cleo-topper.jpg") no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.447);
+  background-blend-mode: multiply;
+}
+
+main section:nth-of-type(2) {
+  background-image: url(../img/kids.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 140vh;
+  z-index: 2;
+}
+
+section:nth-of-type(1) article:nth-of-type(1) {
+  width: 10%;
+  height: 10%;
+  color: white;
+  font-size: xx-large;
+  margin-left: 10%;
+  margin-top: 15%;
+  font-family: "inter";
+}
+section:nth-of-type(1) article:nth-of-type(2) {
+  margin-left: 10%;
+  margin-top: 10%;
+  font-family: "mrdafoe";
+  color: rgb(231, 188, 14);
+}
+section:nth-of-type(1) article:nth-of-type(3) {
+  margin-left: 15%;
+  margin-top: 20%;
+  font-family: "santio";
+  color: #6BC1A3;
+  width: 25%;
+}
+section:nth-of-type(1) article:nth-of-type(4) {
+  margin-left: 25%;
+  margin-top: 25%;
+  font-family: "santio";
+  color: #E7BC0E;
+  width: 40%;
+  height: 30%;
+}
+section:nth-of-type(1) article:nth-of-type(5) {
+  width: 30%;
+  height: 30%;
+  margin-left: 0%;
+  margin-left: 25%;
+  margin-top: 15%;
+  margin-bottom: 10%;
+  font-family: "santio";
+  color: #CB91B6;
+  width: 40%;
+  height: 30%;
+}
+section:nth-of-type(1) article:nth-of-type(6) {
+  width: 30%;
+  height: 30%;
+  margin-left: 0%;
+  margin-left: 25%;
+  margin-top: 15%;
+  margin-bottom: 10%;
+  font-family: "santio";
+  color: #6BC1A3;
+  width: 40%;
+  height: 30%;
+}
+section:nth-of-type(1) article:nth-of-type(7) {
+  margin-left: 25%;
+  margin-top: 25%;
+  margin-bottom: 10%;
+  font-family: "santio";
+  color: #7EB8E1;
+  width: 25%;
+  height: 25%;
+  line-height: 1.5rem;
+}
+section:nth-of-type(1) div {
+  width: 30%;
+  height: 30%;
+  margin-left: 0%;
+}
+
+/*# sourceMappingURL=style.css.map */
